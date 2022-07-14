@@ -4,13 +4,15 @@ body {
     ;
 }
 
-h1 {
+.heading {
     font-size: 50px;
     text-shadow: 0 0 5px black;
+    padding-left: 200px;
+    padding-right: 200px;
 }
 
 .top-banner {
-    background-image: url(Images/donation.jpg);
+    background-image: url(Images/donation13.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -31,6 +33,110 @@ h1 {
     font-weight: 700;
 }
 
-p {
-    padding-bottom: 20px;
+
+.donate-today {
+    padding-top: 50px;
+    text-align: center;
+}
+
+
+
+.para-amount {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.amount {
+    margin: 50px 20px 50px;
+    background-color: rgba(233, 229, 229, 0.384);
+    padding: 30px 25px 30px;
+    color: rgb(128, 128, 128);
+}
+
+#donate-amount {
+    background-color: lightpink;
+    border: 2px solid coral;
+    padding: 30px 20px 30px;
+    color: coral;
+}
+
+
+
+.heading-makeover2 {
+    padding-top: 100px;
+    text-align: center;
+}
+
+
+.felxible-container {
+    padding-top: 50px;
+    display: flex;
+}
+
+#food-family {
+    width: 33%;
+    padding: 50px;
+    background-color: rgba(95, 158, 160, 0.336);
+    margin: 1%;
+    margin-left: 10%;
+
+}
+
+#shelter-family {
+    width: 33%;
+    background-color: rgba(255, 182, 193, 0.295);
+    padding: 50px;
+    margin: 1%;
+
+}
+
+#education-family {
+    width: 33%;
+    background-color: rgba(255, 127, 80, 0.363);
+    padding: 50px;
+    margin: 1%;
+    margin-right: 10%;
+
+}
+
+.get-update {
+    text-align: center;
+}
+
+.heading-makeover3 {
+    padding: 50px;
+}
+
+.email-makeover {
+    background-color: rgba(255, 182, 193, 0.288);
+    padding: 50px;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+.para-modified {
+    padding-left: 30%;
+    padding-right: 30%;
+    color: gray;
+}
+
+.first-para {
+    color: white;
+    padding-bottom: 40px;
+}
+
+footer {
+    color: tomato;
+    text-align: center;
+    background-color: #2b2e2c;
+    padding: 1%;
+    margin-top: 50px;
+    font-family: 'Great Vibes', cursive;
+}
+
+.footer-para {
+    color: antiquewhite;
+    font-family: Arial, Helvetica, sans-serif;
 }
